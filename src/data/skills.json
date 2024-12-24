@@ -1,22 +1,22 @@
 [
   {
     "title": "HTML",
-    "imageSrc": "../assets/skills/html.png"
+    "imageSrc": "https://i.ibb.co/L1DDf5T/html.png"
   },
   {
     "title": "CSS",
-    "imageSrc": "../assets/skills/css.png"
+    "imageSrc": "https://i.ibb.co/5TRBStL/css.png"
   },
   {
     "title": "React",
-    "imageSrc": "../assets/skills/react.png"
+    "imageSrc": "https://i.ibb.co/8j6y6Zk/react.png"
   },
   {
     "title": "Node",
-    "imageSrc": "../assets/skills/node.png"
+    "imageSrc": "https://i.ibb.co/TW8R8zr/node.png"
   },
   {
     "title": "MongoDB",
-    "imageSrc": "../assets/skills/mongodb.png"
+    "imageSrc": "https://i.ibb.co/7RRQZWt/mongodb.png"
   }
 ]

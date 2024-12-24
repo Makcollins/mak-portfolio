@@ -1,5 +1,5 @@
 import React from 'react';
-import { aboutImage, cursorIcon } from '../../utils';
+import { aboutImage, cursorIcon, dev } from '../../utils';
 import styles from './About.module.css';
 
 const About = () => {
@@ -10,7 +10,7 @@ const About = () => {
                 <img src={aboutImage()} alt="" className={styles.aboutImg} />
                 <ul className={styles.aboutItems}>
                     <li className={styles.aboutItem}>
-                        <img src={cursorIcon()} alt="" />
+                        <img src={dev()} alt="" />
                         <div className={styles.aboutItemText}>
                             <h3 className={styles.devTitle}>
                                 Front-end developer
@@ -21,7 +21,6 @@ const About = () => {
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
-                        <img src={cursorIcon()} alt="" />
                         <div className={styles.aboutItemText}>
                             <h3 className={styles.evTitle}>
                                 Back-end developer
@@ -30,6 +29,7 @@ const About = () => {
                                 I create modern backend systems and APIs that are super reliable
                             </p>
                         </div>
+                        <img src={dev()} alt="" />
                     </li>
                 </ul>
             </div>
