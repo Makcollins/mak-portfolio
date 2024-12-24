@@ -4,8 +4,8 @@ import styles from './ProjectCard.module.css';
 const ProjectCard = ({ project: { imageSrc, title, description, skills, demo, source } }) => {
     return (
         <div className={styles.container}>
-            <img src={imageSrc} alt={`${title} image`}
-                className={styles.img} />
+            <a href={demo}><img src={imageSrc} alt={`${title} image`}
+                className={styles.img} /></a>
             <h3 className={styles.title}>{title}</h3>
             <p className={styles.description}>{description}</p>
             <ul className={styles.skills}>

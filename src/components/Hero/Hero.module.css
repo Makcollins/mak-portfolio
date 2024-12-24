@@ -22,7 +22,7 @@
     font-weight: 900;
     margin-bottom: 33px;
     font-family: var(--font-roboto);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 70%,
+    background: linear-gradient(90deg, rgba(153, 242, 226, 1) 70%,
      rgba(255,255,255,0) 120%);
      -webkit-text-fill-color: transparent;
      -webkit-background-clip: text;
@@ -38,7 +38,7 @@
 
 .contactBtn{
     text-decoration: none;
-    background-color: var(--color-primary);
+    background-color: var(--color-secondary);
     color: var(--color-text);
     border-radius: 100px;
     font-size: 30px;
@@ -78,7 +78,8 @@
     top: -128px;
     left: 10vw;
     border-radius: 764px;
-    background: rgba(25,55,109, 0.7);
+    /* background: #25c9ab; */
+    background: rgba(22, 115, 98, 0.7);
     filter: blur(100px);
     z-index: 0;
  }
@@ -92,7 +93,7 @@
     top: 246px;
     left: 10vw;
     border-radius: 764px;
-    background: rgba(25,55,109, 0.7);
+    background: rgba(22, 115, 98, 0.7);
     filter: blur(100px);
     z-index: 0;
  }

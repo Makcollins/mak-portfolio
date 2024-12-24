@@ -1,16 +1,20 @@
 @import '../../vars.css';
 
 .container {
+    position: relative;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    background:linear-gradient(180deg, #576cbc 0%, #132a53) ;
+    background:linear-gradient(180deg, #1fa58cbc 0%, #0e4b40) ;
     padding: 18px 24px;
     max-width: 345px;
+    min-height: 400px;
 }
 
 .img {
     margin-bottom: 26px;
+    height: 150px;
+    max-width: 300px;
 }
 .title {
     font-size: 25px;
@@ -32,26 +36,29 @@
 }
 
 .skill {
-    font-size: 25px;
+    color: var(--color-theme);
+    font-size: 20px;
     font-weight: 400;
     border-radius: 100px;
-    background-color: var(--color-dark);
-    padding: 2px 22px;
+    background-color: var(--color-bg);
+    padding: 2px 20px;
 }
 
 .links {
+    position: relative;
     width: 100%;
-    margin-top: 26px;
+    margin-top: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    bottom: 5px;
 }
 
 .link {
     text-decoration: none;
-    color: var(--color-dark);
-    font-size: 30px;
+    color:  #0c4137;;
+    font-size: 20px;
     font-weight: 600;
     border-radius: 100px;
-    background: var(--color-primary);
+    background:  #1d9e87;;
     padding: 1px 22px;
 }

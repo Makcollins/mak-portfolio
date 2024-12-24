@@ -1,26 +1,50 @@
 [
   {
-    "title": "Food ordering",
-    "imageSrc": "https://i.ibb.co/P47qMws/project.png",
+    "title": "Food Ordering App",
+    "imageSrc": "https://i.ibb.co/znpB8rM/foodapp.png",
     "description": "",
     "skills": ["React", "Express", "Node", "BootStrap 5"],
     "demo": "https://mameals-client.onrender.com/",
-    "source": "https://www.github.com"
+    "source": "https://github.com/Makcollins/Food-Delivery-App"
+  },
+  {
+    "title": "Personal Portfolio",
+    "imageSrc": "https://i.ibb.co/kGHbHGt/portfolio.png",
+    "description": "",
+    "skills": ["React","HTML","CSS","JavaScript"],
+    "demo": "https://collinsmakui.onrender.com/",
+    "source": "https://github.com/Makcollins/mak-portfolio"
   },
   {
     "title": "Job Recruitment Portal",
-    "imageSrc": "https://i.ibb.co/P47qMws/project.png",
+    "imageSrc": "https://i.ibb.co/Ln9FLwY/jobportal.png",
     "description": "",
     "skills": ["React", "Node","MongoDb", "Tailwind"],
     "demo": "https://jobportal-client-l40g.onrender.com/",
-    "source": "https://www.github.com"
+    "source": "https://github.com/Makcollins/JobPortal"
   },
   {
-    "title": "Project C",
-    "imageSrc": "https://i.ibb.co/P47qMws/project.png",
+    "title": "Video streaming Site",
+    "imageSrc": "https://i.ibb.co/xHzJFt2/disney.png",
     "description": "",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "skills": ["HTML","CSS","JavaScript"],
+    "demo": "https://makvideosite.netlify.app/",
+    "source": "https://github.com/Makcollins/makhotstar.github.io"
+  },
+  {
+    "title": "Netflix-like site",
+    "imageSrc": "https://i.ibb.co/fqB8LDZ/netflix.png",
+    "description": "",
+    "skills": ["HTML","CSS","Sass"],
+    "demo": "https://makvideostream.onrender.com/",
+    "source": "https://github.com/Makcollins/maknetflix.github.io"
+  },
+  {
+    "title": "Simple Weather App",
+    "imageSrc": "https://i.ibb.co/2KGThsj/simpleweather.png",
+    "description": "",
+    "skills": ["HTML","CSS","JavaScript"],
+    "demo": "https://makweathersite.netlify.app/",
+    "source": "https://github.com/Makcollins/makweaatherapp"
   }
 ]
