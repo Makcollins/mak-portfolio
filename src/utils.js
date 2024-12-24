@@ -13,3 +13,6 @@ export const heroImage = () => {
 export const aboutImage = () => {
     return new URL(`/assets/about/aboutImage.png`, import.meta.url).href;
 }
+export const cursorIcon = () => {
+    return new URL(`/assets/about/cursorIcon.png`, import.meta.url).href;
+}
