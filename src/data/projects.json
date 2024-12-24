@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Food ordering",
+    "imageSrc": "../assets/projects/project.png",
+    "description": "",
+    "skills": ["React", "Express", "Node", "BootStrap 5"],
+    "demo": "https://mameals-client.onrender.com/",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Job Recruitment Portal",
+    "imageSrc": "../assets/projects/project.png",
+    "description": "",
+    "skills": ["React", "Node","MongoDb", "Tailwind"],
+    "demo": "https://jobportal-client-l40g.onrender.com/",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Project C",
+    "imageSrc": "../assets/projects/project.png",
+    "description": "",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]

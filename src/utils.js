@@ -1,5 +1,5 @@
 export const getImageUrl = () => {
-    return new URL(`../assets/`, import.meta.url).href;
+    return new URL(`/assets/`, import.meta.url).href;
 };
 export const menuIcon = () => {
     return new URL(`/assets/nav/menuIcon.png`, import.meta.url).href;
