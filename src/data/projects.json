@@ -1,21 +1,5 @@
 [
   {
-    "title": "Food Ordering App",
-    "imageSrc": "https://i.ibb.co/znpB8rM/foodapp.png",
-    "description": "",
-    "skills": ["React", "Express", "Node", "BootStrap 5"],
-    "demo": "https://mameals-client.onrender.com/",
-    "source": "https://github.com/Makcollins/Food-Delivery-App"
-  },
-  {
-    "title": "Personal Portfolio",
-    "imageSrc": "https://i.ibb.co/kGHbHGt/portfolio.png",
-    "description": "",
-    "skills": ["React","HTML","CSS","JavaScript"],
-    "demo": "https://collinsmakui.onrender.com/",
-    "source": "https://github.com/Makcollins/mak-portfolio"
-  },
-  {
     "title": "Job Recruitment Portal",
     "imageSrc": "https://i.ibb.co/Ln9FLwY/jobportal.png",
     "description": "",
@@ -38,13 +22,5 @@
     "skills": ["HTML","CSS","Sass"],
     "demo": "https://makvideostream.onrender.com/",
     "source": "https://github.com/Makcollins/maknetflix.github.io"
-  },
-  {
-    "title": "Simple Weather App",
-    "imageSrc": "https://i.ibb.co/2KGThsj/simpleweather.png",
-    "description": "",
-    "skills": ["HTML","CSS","JavaScript"],
-    "demo": "https://makweathersite.netlify.app/",
-    "source": "https://github.com/Makcollins/makweaatherapp"
   }
 ]
