@@ -14,7 +14,7 @@ const Contact = () => {
                 <div className={styles.contactIcons}>
                     <a href="https://www.linkedin.com/in/collins-makui-2b36341a2/" className={styles.contactIcon}><FaLinkedin /></a>
                     <a href="https://github.com/Makcollins" className={styles.contactIcon}><FaGithub /></a>
-                    <a href="mailto:makcollins16@gmail.com" className={styles.contactIcon}><SiGmail /></a>
+{/*                     <a href="mailto:makcollins16@gmail.com" className={styles.contactIcon}><SiGmail /></a> */}
                 </div>
             </div>
             <div className='copyright'>COLLINS MAKUI <FaRegCopyright/> 2024</div>
