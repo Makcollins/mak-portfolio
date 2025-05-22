@@ -1,5 +1,13 @@
 [
   {
+    "title": "Taraji Learning Hub Website",
+    "imageSrc": "https://i.ibb.co/Ln9FLwY/jobportal.png",
+    "description": "",
+    "skills": ["React", "Node","MongoDb", "Tailwind"],
+    "demo": "https://jobportal-client-l40g.onrender.com/",
+    "source": ""
+  },
+  {
     "title": "Job Recruitment Portal",
     "imageSrc": "https://i.ibb.co/Ln9FLwY/jobportal.png",
     "description": "",
