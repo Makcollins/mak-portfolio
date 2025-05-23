@@ -4,7 +4,7 @@
     "imageSrc": "https://i.ibb.co/v4kMyY3K/taraji.png",
     "description": "",
     "skills": ["Wordpress"],
-    "demo": "https://jobportal-client-l40g.onrender.com/",
+    "demo": "https://tarajilearninghub.com/",
     "source": ""
   },
   {
@@ -14,6 +14,14 @@
     "skills": ["React", "Node","MongoDb", "Tailwind"],
     "demo": "https://jobportal-client-l40g.onrender.com/",
     "source": "https://github.com/Makcollins/JobPortal"
+  },
+  {
+    "title": "Portfolio Website",
+    "imageSrc": "https://i.ibb.co/xHzJFt2/disney.png",
+    "description": "",
+    "skills": ["HTML","CSS","JavaScript"],
+    "demo": "#",
+    "source": "https://github.com/Makcollins/makhotstar.github.io"
   },
   {
     "title": "Video streaming Site",
