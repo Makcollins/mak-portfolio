@@ -17,11 +17,11 @@
   },
   {
     "title": "Portfolio Website",
-    "imageSrc": "https://i.ibb.co/xHzJFt2/disney.png",
+    "imageSrc": "https://i.ibb.co/SHxQCwz/port.png",
     "description": "",
-    "skills": ["HTML","CSS","JavaScript"],
+    "skills": ["REACT","CSS"],
     "demo": "#",
-    "source": "https://github.com/Makcollins/makhotstar.github.io"
+    "source": "https://github.com/Makcollins/mak-portfolio/"
   },
   {
     "title": "Video streaming Site",
