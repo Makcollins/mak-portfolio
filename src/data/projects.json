@@ -7,6 +7,14 @@
     "demo": "https://tarajilearninghub.com/",
     "source": ""
   },
+    {
+    "title": "E-Commerce Website",
+    "imageSrc": "https://i.ibb.co/Ln9FLwY/jobportal.png",
+    "description": "",
+    "skills": ["React", "Node","MongoDb", "CSS", "Bootstrap"],
+    "demo": "https://jobportal-client-l40g.onrender.com/",
+    "source": "https://github.com/Makcollins/JobPortal"
+  },
   {
     "title": "Job Recruitment Portal",
     "imageSrc": "https://i.ibb.co/Ln9FLwY/jobportal.png",
