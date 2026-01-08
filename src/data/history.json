@@ -1,5 +1,13 @@
 [
   {
+    "role": "Software Developer",
+    "organisation": "Syncfusion",
+    "startDate": "July, 2025",
+    "endDate": "Current",
+    "experiences": "Frontend Development with Angular & Typescipt, .NET WEBAPI Development, ASP.NET(C#), Databases: PostgreSQL, MySQL, Mycrosoft SQLServer",
+    "imageSrc": "https://i.ibb.co/VS7yR9w/ed.png"
+  },
+  {
     "role": "Fullstack Web Development Intern",
     "organisation": "Edureka",
     "startDate": "Feb, 2024",

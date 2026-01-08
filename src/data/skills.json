@@ -1,16 +1,21 @@
 [
   {
-    "title": "HTML",
-    "imageSrc": "https://i.ibb.co/L1DDf5T/html.png"
+    "title": "C#",
+    "imageSrc": "https://i.ibb.co/V0M7b4g3/Csharp-Logo.png"
   },
   {
-    "title": "CSS",
-    "imageSrc": "https://i.ibb.co/5TRBStL/css.png"
+    "title": "TypeScript",
+    "imageSrc": "https://i.ibb.co/5WdHGzpy/ts-logo-round-512.png"
   },
-    {
+  {
     "title": "JavaScript",
     "imageSrc": "https://i.ibb.co/b5rWpv91/js-5968509.png"
   },
+  {
+    "title": "Angular",
+    "imageSrc": "https://i.ibb.co/Fqw6RqGF/angular-gradient.png"
+  },
+ 
   {
     "title": "React",
     "imageSrc": "https://i.ibb.co/8j6y6Zk/react.png"
@@ -19,9 +24,25 @@
     "title": "Node",
     "imageSrc": "https://i.ibb.co/TW8R8zr/node.png"
   },
+   {
+    "title": "PostgreSQL",
+    "imageSrc": "https://i.ibb.co/5tp74W5/Logo-Postgre-SQL.png"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "https://i.ibb.co/CpZkXKpr/logo-mysql-170x115.png"
+  },
   {
     "title": "MongoDB",
     "imageSrc": "https://i.ibb.co/7RRQZWt/mongodb.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "https://i.ibb.co/L1DDf5T/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "https://i.ibb.co/5TRBStL/css.png"
   },
    {
     "title": "WordPress",

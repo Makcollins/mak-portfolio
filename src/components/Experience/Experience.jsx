@@ -31,6 +31,8 @@ const Experience = () => {
                   <div className={styles.historyItemDetails}>
                     <h3>{`${historyItem.role},${historyItem.organisation}`}</h3>
                     <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
+                    <hr />
+                    <p>{`${historyItem.experiences}`}</p>
                   </div>
                 </li>
               )
