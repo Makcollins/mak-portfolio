@@ -3,7 +3,7 @@
     "title": "Taraji Learning Hub Website",
     "imageSrc": "https://i.ibb.co/v4kMyY3K/taraji.png",
     "description": "",
-    "skills": ["React", "ypeScript", "Tailwind Css"],
+    "skills": ["React", "Typescript", "Tailwind Css"],
     "demo": "https://tarajilearninghub.com/",
     "source": "#"
   },
