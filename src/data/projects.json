@@ -3,9 +3,9 @@
     "title": "Taraji Learning Hub Website",
     "imageSrc": "https://i.ibb.co/v4kMyY3K/taraji.png",
     "description": "",
-    "skills": ["Wordpress"],
+    "skills": ["React", "ypeScript", "Tailwind Css"],
     "demo": "https://tarajilearninghub.com/",
-    "source": ""
+    "source": "#"
   },
     {
     "title": "E-Commerce Website",
@@ -24,12 +24,12 @@
     "source": "https://github.com/Makcollins/JobPortal"
   },
   {
-    "title": "Portfolio Website",
+    "title": "Tic tac to game",
     "imageSrc": "https://i.ibb.co/SHxQCwz/port.png",
     "description": "",
-    "skills": ["REACT","CSS"],
-    "demo": "#",
-    "source": "https://github.com/Makcollins/mak-portfolio/"
+    "skills": ["REACT","CSS","Typescript"],
+    "demo": "https://maktictactoegame.onrender.com/",
+    "source": "#"
   },
   {
     "title": "Video streaming Site",
