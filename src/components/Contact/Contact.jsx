@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin,FaRegCopyright } from 'react-icons/fa';
+import { FaGithub, FaLinkedin,FaRegCopyright,FaGithubAlt  } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 import styles from './Contact.module.css';
 
