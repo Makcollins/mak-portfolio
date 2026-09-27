@@ -4,8 +4,41 @@ import styles from './About.module.css';
 
 const About = () => {
     return (
-        <section className={styles.container} id='about'>
-            <h1 className={styles.title}>ABOUT</h1>
+        // <section className={styles.container} id='about'>
+        <section className="w-full" id='about'>
+            <div className="flex flex-col items-center max-w-7xl mx-auto gap-4">
+                <h2 className="text-cyan-700 text-sm">ABOUT ME</h2>
+                <h3 className="font-bold text-2xl">Engineering with purpose and precision</h3>
+                <div className="grid md:grid-cols-3 gap-6">
+                    <div className="flex bg-white flex-col gap-4 border rounded-xl border-gray-200 shadow-sm p-6">
+                        <span className="bg-cyan-100 w-6 rounded-sm text-center">ic</span>
+
+                        <h4 className="font-bold text-2xl">Full-Stack Arhitecture</h4>
+                        <p className="text-gray-500 font-medium text-xl">Designing robust, end-to-end systems with high-performing frontend frameworks connected to secure,
+                            scalable microservices and APIs.</p>
+
+                    </div>
+                    <div className="flex bg-white flex-col gap-4 border rounded-xl border-gray-200 shadow-sm p-6">
+                        <span className="bg-cyan-100 w-6 rounded-sm text-center">ic</span>
+
+                        <h4 className="font-bold text-2xl">Full-Stack Arhitecture</h4>
+                        <p className="text-gray-500 font-medium text-xl">Designing robust, end-to-end systems with high-performing frontend frameworks connected to secure,
+                            scalable microservices and APIs.</p>
+
+                    </div>
+                    <div className="flex bg-white flex-col gap-4 border rounded-xl border-gray-200 shadow-sm p-6">
+                        <span className="bg-cyan-100 w-6 rounded-sm text-center">ic</span>
+
+                        <h4 className="font-bold text-2xl">Full-Stack Arhitecture</h4>
+                        <p className="text-gray-500 font-medium text-xl">Designing robust, end-to-end systems with high-performing frontend frameworks connected to secure,
+                            scalable microservices and APIs.</p>
+
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            {/* <h1 className={styles.title}>ABOUT</h1>
             <div className={styles.content}>
                 <img src={aboutImage()} alt="" className={styles.aboutImg} />
                 <ul className={styles.aboutItems}>
@@ -32,7 +65,7 @@ const About = () => {
                         <img src={dev()} alt="" />
                     </li>
                 </ul>
-            </div>
+            </div> */}
 
         </section>
     )
