@@ -6,10 +6,10 @@ const About = () => {
     return (
         // <section className={styles.container} id='about'>
         <section className="w-full" id='about'>
-            <div className="flex flex-col items-center max-w-7xl mx-auto gap-4">
+            <div className="flex flex-col items-center max-w-7xl mx-auto px-10 gap-4">
                 <h2 className="text-cyan-700 text-sm">ABOUT ME</h2>
                 <h3 className="font-bold text-2xl">Engineering with purpose and precision</h3>
-                <div className="grid md:grid-cols-3 gap-6">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                     <div className="flex bg-white flex-col gap-4 border rounded-xl border-gray-200 shadow-sm p-6">
                         <span className="bg-cyan-100 w-6 rounded-sm text-center">ic</span>
 

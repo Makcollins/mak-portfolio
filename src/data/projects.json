@@ -7,22 +7,6 @@
     "demo": "https://tarajilearninghub.com/",
     "source": "#"
   },
-    {
-    "title": "E-Commerce Website",
-    "imageSrc": "https://i.ibb.co/gFQw12Bz/Screenshot-42.png",
-    "description": "",
-    "skills": ["React", "Node","MongoDb", "CSS", "Bootstrap"],
-    "demo": "https://mameals-client.onrender.com/",
-    "source": "https://github.com/Makcollins/Food-Delivery-App"
-  },
-  {
-    "title": "Job Recruitment Portal",
-    "imageSrc": "https://i.ibb.co/Ln9FLwY/jobportal.png",
-    "description": "",
-    "skills": ["React", "Node","MongoDb", "Tailwind"],
-    "demo": "https://jobportal-client-l40g.onrender.com/",
-    "source": "https://github.com/Makcollins/JobPortal"
-  },
   {
     "title": "Tic tac to game",
     "imageSrc": "https://i.ibb.co/SHxQCwz/port.png",

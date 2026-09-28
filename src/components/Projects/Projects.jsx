@@ -6,9 +6,9 @@ import ProjectCard from './ProjectCard';
 
 const Projects = () => {
   return (
-    <section className={styles.container} id='projects'>
+    <section className="md:max-w-7xl px-10 md:mx-auto " id='projects'>
         <h2 className={styles.title}>Projects</h2>
-        <div className={styles.projects}>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {
                 projects.map((project,id) => {
                     return(
