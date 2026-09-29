@@ -22,13 +22,5 @@
     "skills": ["HTML","CSS","JavaScript"],
     "demo": "https://makvideosite.netlify.app/",
     "source": "https://github.com/Makcollins/makhotstar.github.io"
-  },
-  {
-    "title": "Netflix-like site",
-    "imageSrc": "https://i.ibb.co/fqB8LDZ/netflix.png",
-    "description": "",
-    "skills": ["HTML","CSS","Sass"],
-    "demo": "https://makvideostream.onrender.com/",
-    "source": "https://github.com/Makcollins/maknetflix.github.io"
   }
 ]

@@ -18,7 +18,7 @@ const Contact = () => {
                     {/*                     <a href="mailto:makcollins16@gmail.com" className={styles.contactIcon}><SiGmail /></a> */}
                 </div>
             </div>
-            <div className='copyright'>COLLINS MAKUI <FaRegCopyright /> 2024</div>
+            <div className='flex gap-2'>COLLINS MAKUI <FaRegCopyright /> 2024</div>
         </footer>
     )
 }

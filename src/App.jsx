@@ -10,7 +10,7 @@ import Skills from "./components/Skills/Skills";
 function App() {
   
   return (
-      <div className={styles.App}>
+      <div className="bg-slate-50 text-slate-900 :bg-slate-900 :text-slate-100 antialiased min-h-screen selection:bg-cyan-500 selection:text-white">
         <Navbar/>
         <Hero/>
         <About/>
