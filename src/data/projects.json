@@ -1,7 +1,7 @@
 [
   {
     "title": "Taraji Learning Hub Website",
-    "imageSrc": "https://i.ibb.co/v4kMyY3K/taraji.png",
+    "imageSrc": "taraji_hero",
     "description": "",
     "skills": ["React", "Typescript", "Tailwind Css"],
     "demo": "https://tarajilearninghub.com/",
@@ -9,7 +9,7 @@
   },
   {
     "title": "Tic tac to game",
-    "imageSrc": "https://i.ibb.co/SHxQCwz/port.png",
+    "imageSrc": "tic_tac_toe",
     "description": "",
     "skills": ["REACT","CSS","Typescript"],
     "demo": "https://maktictactoegame.onrender.com/",
@@ -17,7 +17,7 @@
   },
   {
     "title": "Video streaming Site",
-    "imageSrc": "https://i.ibb.co/xHzJFt2/disney.png",
+    "imageSrc": "disney_clone_hero",
     "description": "",
     "skills": ["HTML","CSS","JavaScript"],
     "demo": "https://makvideosite.netlify.app/",

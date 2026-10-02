@@ -1,14 +1,28 @@
 import React from 'react';
 import { useState } from 'react';
-
 import styles from './Navbar.module.css';
 import { getImageUrl,menuIcon, closeIcon } from '../../utils';
+import { Cloudinary } from "@cloudinary/url-gen";
+import { AdvancedImage } from '@cloudinary/react';
+import { fill } from "@cloudinary/url-gen/actions/resize";
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
+
+     const cld = new Cloudinary({
+        cloud: {
+            cloudName: 'xnlxwmb1'
+        }
+    });
+
+    const logo = cld.image('mak_ui_tp');
     return (
         <nav className={styles.navbar}>
-            <a href="/" className={styles.title}>Collins Makui</a>
+            <a href="/" className="">
+             <AdvancedImage cldImg={logo}
+                    alt={'Mak UI brand logo'}
+                    className="h-6"w-6 />
+            Collins Makui</a>
             <div className={styles.menu}>
                 <img className={styles.menuBtn} 
                 src = {menuOpen ? closeIcon() : menuIcon()} alt="Menu" 

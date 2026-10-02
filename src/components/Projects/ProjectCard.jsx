@@ -1,14 +1,31 @@
 import React from 'react';
 import styles from './ProjectCard.module.css';
+import { Cloudinary } from "@cloudinary/url-gen";
+import { AdvancedImage } from '@cloudinary/react';
+import { fill } from "@cloudinary/url-gen/actions/resize";
+import { format, quality } from "@cloudinary/url-gen/actions/delivery";
 
 const ProjectCard = ({ project: { imageSrc, title, description, skills, demo, source } }) => {
+    const cld = new Cloudinary({
+        cloud: {
+            cloudName: 'xnlxwmb1'
+        }
+    });
+
+    const snap = cld.image(imageSrc)
+        .resize(fill().width(500).height(240))
+
     return (
         <div className="border rounded-2xl border-gray-200 drop-shadow-2xl bg-white overflow-hidden">
-            <a href={demo}><img src={imageSrc} alt={`${title} image`}
-                className="w-full h-60" /></a>
+            <a href={demo}>
+                <AdvancedImage cldImg={snap}
+                    alt={`${title} image`}
+                    className="w-full h-60 object-cover" />
+
+            </a>
             <div className="p-4 flex flex-col gap-4">
                 <h3 className="font-bold text-2xl">{title}</h3>
-                {/* <p className={styles.description}>{description}</p> */}
+
                 <p className="text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sapiente facere eum mollitia ipsum. Inventore!</p>
                 <ul className="flex gap-2">
                     {
