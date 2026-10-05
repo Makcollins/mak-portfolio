@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="py-6">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
-        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-50 :bg-cyan-900/30 border border-cyan-200 :border-cyan-800/50 text-cyan-700 :text-cyan-300 text-xs font-semibold uppercase tracking-wider mb-6">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-50 dark:bg-cyan-900/30 border border-cyan-200 dark:border-cyan-800/50 text-cyan-700 dark:text-cyan-300 text-xs font-semibold uppercase tracking-wider mb-6">
           <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
           Available for software engineering roles
         </div>

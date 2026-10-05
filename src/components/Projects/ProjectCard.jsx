@@ -12,15 +12,14 @@ const ProjectCard = ({ project: { imageSrc, title, description, skills, demo, so
         }
     });
 
-    const snap = cld.image(imageSrc)
-        .resize(fill().width(500).height(240))
+    const snap = cld.image(imageSrc);
 
     return (
         <div className="border rounded-2xl border-gray-200 drop-shadow-2xl bg-white overflow-hidden">
-            <a href={demo}>
+            <a href={demo} className="h-60 w-full">
                 <AdvancedImage cldImg={snap}
                     alt={`${title} image`}
-                    className="w-full h-60 object-cover" />
+                    className=" object-cover" />
 
             </a>
             <div className="p-4 flex flex-col gap-4">

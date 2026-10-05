@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <section className="">
         <div className="md:max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 flex flex-col py-5 gap-6">
-            <h2 className="text-xs font-mono font-bold text-cyan-600 :text-cyan-400 
+            <h2 className="text-xs font-mono font-bold text-cyan-600 dark:text-cyan-400 
             uppercase tracking-widest">02. TECH STACK</h2>
             <div className="w-full flex flex-col md:flex-row  gap-2 justify-between">
                 <h3 className="text-2xl font-bold">Technologies and Tools</h3>
