@@ -17,11 +17,14 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         
         {/* Brand Logo */}
-        <a href="#" className="flex items-center gap-2 text-lg font-bold tracking-tight text-slate-900 dark:text-white">
+        <a href="#" className="flex items-center gap-2 text-sm tracking-tight text-slate-900 dark:text-white">
           <div className="p-1.5 rounded-lg bg-cyan-500/10 text-cyan-600 dark:text-cyan-400">
             <Code2 className="w-5 h-5" />
           </div>
-          <span>Collins<span className="text-cyan-500">.dev</span></span>
+          <div className='flex flex-col gap-0'>
+              <span>Collins Makui</span>
+              <span className="text-cyan-500 font-light">Software developer</span>
+          </div>
         </a>
 
         {/* Desktop Links */}
