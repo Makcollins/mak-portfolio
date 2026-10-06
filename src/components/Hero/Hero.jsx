@@ -25,13 +25,10 @@ const Hero = () => {
             <div className="flex gap-2">
               <button className="border border-gray-400 rounded-sm py-1 px-2"><a href="#projects">View my work</a></button>
               <button className="border border-gray-400 rounded-sm py-1 px-2"><a href="https://github.com/Makcollins/">Git hub</a></button>
- 
+
             </div>
           </div>
-          <div className="w-full md:w-1/2 lg:w-[35%] flex items-center justify-center">
-              <img src={heroImage()} alt="My Image" className={`w-50 md:w-full ${styles.heroImg}`}/>
-          </div>
-         
+          <img src={heroImage()} alt="My Image" className={`md:w-[35%] ${styles.heroImg}`} />
         </div>
       </div>
     </section>
