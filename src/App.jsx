@@ -6,6 +6,7 @@ import Hero from "./components/Hero/Hero";
 import Navbar from './components/Navbar/Navbar';
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
+import { FloatingWhatsApp } from 'react-floating-whatsapp';
 
 function App() {
 
@@ -42,6 +43,15 @@ function App() {
       <footer className="py-8 border-t border-slate-200 dark:border-slate-800 text-center text-sm text-slate-500 dark:text-slate-400">
         <p>© {new Date().getFullYear()} Collins Makui</p>
       </footer>
+      <FloatingWhatsApp 
+        phoneNumber="254745083702" 
+        accountName="Collins Makui" 
+        allowClickAway={true}      
+        notification={true}        
+        statusMessage="🚀 Engineering mode: Active" 
+        avatar="assets/about/aboutImage.png"
+        chatMessage="Hello! Looking to engineer a high-performing app, website, or custom software? Tell me about your project, and let’s make it happen!" // Optional welcome message
+      />
     </div>
   )
 }
