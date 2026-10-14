@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { FaGithub, FaGithubAlt, FaLinkedin, FaRegCopyright } from 'react-icons/fa';
+import React from 'react';
+import { FaGithub, FaLinkedin,FaRegCopyright,FaGithubAlt  } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 import styles from './Contact.module.css';
 import { CheckCircle2, Send } from 'lucide-react';
