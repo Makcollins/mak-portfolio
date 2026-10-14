@@ -6,39 +6,32 @@ import styles from "./Experience.module.css";
 
 const Experience = () => {
   return (
-    <section className={styles.container} id='experience'>
-      <h2 className={styles.title}> Experience</h2>
-      <div className={styles.content}>
-        <div className={styles.skills}>
-          {
-            skills.map((skill,id)=>{
-              return (
-                <div key={id} className={styles.skill}>
-                  <div className={styles.skillImageContainer}>
-                    <img src={skill.imageSrc} alt="" />
-                  </div>
-                  <p>{skill.title}</p>
-                </div>
-              )
-            })
-          }
+    <section className="py-20" id='experience'>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 flex flex-col items-center">
+        <div class="text-center mb-16">
+          <h2 class="text-xs font-mono font-bold text-cyan-600 :text-cyan-400 uppercase tracking-widest mb-2">04. Career Journey</h2>
+          <h3 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white">Experience & Background</h3>
         </div>
-        <ul className={styles.history}>
-          {
-            history.map((historyItem, id) => {
-              return(
-                <li key={id} className={styles.historyItem}>
-                  <div className={styles.historyItemDetails}>
-                    <h3>{`${historyItem.role},${historyItem.organisation}`}</h3>
-                    <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
-                    <hr />
-                    <p>{`${historyItem.experiences}`}</p>
-                  </div>
-                </li>
-              )
-            })
-          }
-        </ul>
+        <div className="md:w-5xl">
+
+          <ul className="flex flex-col gap-4 relative border-l-2 border-slate-200 dark:border-slate-800 ml-4 md:ml-32 space-y-12">
+            {
+              history.map((historyItem, id) => {
+                return (
+                  <li key={id} className="relative pl-8 md:pl-10">
+                    <div className="">
+                      <div class={`absolute -left-2.25 top-1.5 w-4 h-4 rounded-full ${historyItem.endDate == 'Present' ? 'bg-cyan-500' : 'bg-slate-300 dark:bg-slate-700'} ring-4 ring-slate-50 dark:ring-darkbg`}></div>
+                      <h3 className="font-bold">{`${historyItem.role},${historyItem.organisation}`}</h3>
+                      <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
+                      <hr className="text-gray-200" />
+                      <p>{`${historyItem.experiences}`}</p>
+                    </div>
+                  </li>
+                )
+              })
+            }
+          </ul>
+        </div>
       </div>
     </section>
   )
