@@ -38,7 +38,7 @@ const About = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
 
                 {/* Section Title */}
-                <div className="flex items-center gap-2 mb-2 text-cyan-600 dark:text-cyan-400 font-semibold text-sm tracking-wide uppercase">
+                <div className="flex items-center gap-2 mb-2 text-cyan-600 dark:text-cyan-400 font-semibold text-xs tracking-wide uppercase">
                     {/* <UserCheck className="w-4 h-4" /> */}
                     <span>01. About Me</span>
                 </div>

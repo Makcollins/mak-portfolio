@@ -24,7 +24,9 @@ function App() {
     }
   }, [darkMode]);
 
-  const toggleDarkMode = () => setDarkMode(!darkMode);
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+  }
 
   return (
     <div className="min-h-screen flex flex-col selection:bg-cyan-500 selection:text-white">

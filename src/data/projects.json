@@ -2,7 +2,7 @@
   {
     "title": "Taraji Learning Hub Website",
     "imageSrc": "taraji_hero",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sapiente facere eum mollitia ipsum. Inventore!",
+    "description": "A high-performance web platform for a community-based non-profit organization focused on mental health support and advocacy. The application features a semantic, keyboard-navigable structure to achieve a perfect 100/100 accessibility rating.",
     "skills": ["React", "Typescript", "Tailwind Css"],
     "demo": "https://tarajilearninghub.com/",
     "source": "#"
@@ -10,7 +10,7 @@
   {
     "title": "Tic tac to game",
     "imageSrc": "tic_tac_toe",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sapiente facere eum mollitia ipsum. Inventore!",
+    "description": "A responsive, fully interactive strategy game deployed on Render to master rigorous component architecture and application state. The project implements structured type interfaces to guarantee bulletproof data validation across runtime states",
     "skills": ["REACT","CSS","Typescript"],
     "demo": "https://maktictactoegame.onrender.com/",
     "source": "#"
@@ -18,7 +18,7 @@
   {
     "title": "Video streaming Site",
     "imageSrc": "disney_clone_hero",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sapiente facere eum mollitia ipsum. Inventore!",
+    "description": "Engineered a responsive, media-centric user interface clone of Disney+ deployed on Netlify. Built strictly with Vanilla HTML5, Native CSS3, and JavaScript, the project bypasses frameworks to demonstrate deep mastery of core web standards.",
     "skills": ["HTML","CSS","JavaScript"],
     "demo": "https://makvideosite.netlify.app/",
     "source": "https://github.com/Makcollins/makhotstar.github.io"

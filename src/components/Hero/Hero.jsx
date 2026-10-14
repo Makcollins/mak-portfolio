@@ -4,8 +4,8 @@ import styles from './Hero.module.css';
 
 const Hero = () => {
   return (
-    <section className="py-6">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
+    <section className="">
+      <div className="max-w-7xl py-10 mx-auto px-4 sm:px-6 lg:px-10">
         <div className="flex flex-col gap-6 md:flex-row justify-center md:justify-between">
           <div className="flex flex-col gap-4">
             <div>
