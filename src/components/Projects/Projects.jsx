@@ -6,7 +6,7 @@ import ProjectCard from './ProjectCard';
 
 const Projects = () => {
     return (
-        <section className="w-full py-8 bg-slate-100/60 dark:bg-slate-900/40 border-y border-slate-200 dark:border-slate-800/80 " id='projects'>
+        <section className="w-full py-20 bg-slate-100/60 dark:bg-slate-900/40 border-y border-slate-200 dark:border-slate-800/80 " id='projects'>
             <div className="max-w-7xl mx-auto px-4 sm-px-6 lg:px-10">
                 <div class="max-w-3xl mx-auto text-center mb-10 ">
                     <h2 class="text-xs font-mono font-bold text-cyan-600 dark:text-cyan-400 uppercase tracking-widest mb-2">03. Showcase</h2>

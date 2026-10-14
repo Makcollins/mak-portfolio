@@ -6,27 +6,14 @@ import styles from "./Experience.module.css";
 
 const Experience = () => {
   return (
-    <section className="" id='experience'>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 my-5 flex flex-col items-center">
+    <section className="py-20" id='experience'>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 flex flex-col items-center">
         <div class="text-center mb-16">
           <h2 class="text-xs font-mono font-bold text-cyan-600 :text-cyan-400 uppercase tracking-widest mb-2">04. Career Journey</h2>
           <h3 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white">Experience & Background</h3>
         </div>
         <div className="md:w-5xl">
-          {/* <div className={styles.skills}>
-          {
-            skills.map((skill,id)=>{
-              return (
-                <div key={id} className={styles.skill}>
-                  <div className={styles.skillImageContainer}>
-                    <img src={skill.imageSrc} alt="" />
-                  </div>
-                  <p>{skill.title}</p>
-                </div>
-              )
-            })
-          }
-        </div> */}
+
           <ul className="flex flex-col gap-4 relative border-l-2 border-slate-200 dark:border-slate-800 ml-4 md:ml-32 space-y-12">
             {
               history.map((historyItem, id) => {

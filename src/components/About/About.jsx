@@ -1,81 +1,108 @@
 import React from 'react';
 import { aboutImage, cursorIcon, dev } from '../../utils';
 import styles from './About.module.css';
+import { Code2, Cpu, Globe, Rocket, UserCheck } from 'lucide-react';
 
 const About = () => {
+    const highlights = [
+        {
+            icon: <Code2 className="w-5 h-5 text-cyan-500" />,
+            title: "Clean & Maintainable Code",
+            description: "I prioritize writing modular, well-tested, and self-documenting code built to scale."
+        },
+        {
+            icon: <Cpu className="w-5 h-5 text-cyan-500" />,
+            title: "Full-Stack Architecture",
+            description: "Experienced in designing end-to-end systems from responsive UIs to resilient backend APIs."
+        },
+        {
+            icon: <Globe className="w-5 h-5 text-cyan-500" />,
+            title: "Performance & UX First",
+            description: "Obsessed with optimizing page speeds, accessibility standards, and intuitive design."
+        },
+        {
+            icon: <Rocket className="w-5 h-5 text-cyan-500" />,
+            title: "Continuous Innovation",
+            description: "Always exploring emerging web standards, modern tooling, and modern dev patterns."
+        }
+    ];
+
+    const stats = [
+        { value: "2+", label: "Years Experience" },
+        { value: "15+", label: "Projects Completed" },
+        { value: "99.9%", label: "Commitment to Uptime" }
+    ];
     return (
         // <section className={styles.container} id='about'>
-        <section className="w-full bg-slate-100/60 dark:bg-slate-900/40 border-slate-200 dark:border-slate-800/80" id='about'>
-            <div className="flex flex-col items-center max-w-7xl mx-auto px-10 md:py-8 gap-8">
-                <div className="max-w-3xl mx-auto text-center">
-                    <h2 className="text-xs font-mono font-bold text-cyan-600 :text-cyan-400 uppercase tracking-widest mb-2">01. ABOUT ME</h2>
-                    <h3 className="font-bold text-2xl">Engineering with purpose and precision</h3>
+        <section id="about" className="py-20 border-t border-slate-200 dark:border-slate-800/60 bg-slate-100/60 dark:bg-slate-900/40">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
+
+                {/* Section Title */}
+                <div className="flex items-center gap-2 mb-2 text-cyan-600 dark:text-cyan-400 font-semibold text-sm tracking-wide uppercase">
+                    {/* <UserCheck className="w-4 h-4" /> */}
+                    <span>01. About Me</span>
                 </div>
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    
-                    <div className="flex bg-white flex-col gap-4 p-8 rounded-2xl :bg-darkcard 
-                    border border-slate-200 :border-slate-800 shadow-sm glow-card transition-all">
-                        <span className="w-12 h-12 rounded-xl bg-cyan-50 :bg-cyan-900/30 text-cyan-600 
-                        :text-cyan-400 
-                        flex items-center justify-center">ic</span>
+                <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white mb-6">
+                    Architecting robust digital products with purpose.
+                </h2>
 
-                        <h4 className="font-bold text-2xl">Full-Stack Arhitecture</h4>
-                        <p className="text-gray-500 font-medium text-xl">Designing robust, end-to-end systems with high-performing frontend frameworks connected to secure,
-                            scalable microservices and APIs.</p>
+                {/* Bio & Intro Grid */}
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start mb-16">
+
+                    {/* Main Narrative */}
+                    <div className="lg:col-span-7 space-y-4 text-slate-600 dark:text-slate-300 leading-relaxed text-base sm:text-lg">
+                        <p>
+                            I’m <strong className="text-slate-900 dark:text-white">Collins Makui</strong>, a Software Engineer passionate about solving real-world problems through clean, efficient software. My work spans web application design, API integration, database architecture, and frontend systems.
+                        </p>
+                        <p>
+                            Whether working on high-traffic platforms or building new products from scratch, I focus on building reliable software that delivers genuine value to users.
+                        </p>
+                        <p>
+                            When I'm not writing code, you can find me exploring new open-source technologies, reading tech articles, or refining software workflows.
+                        </p>
                     </div>
 
-                    <div className="flex bg-white flex-col gap-4 p-8 rounded-2xl dark:bg-darkcard 
-                    border border-slate-200 dark:border-slate-800 shadow-sm glow-card transition-all">
-                        <span className="w-12 h-12 rounded-xl bg-cyan-50 dark:bg-cyan-900/30 text-cyan-600 
-                        :text-cyan-400 
-                        flex items-center justify-center">ic</span>
-
-                        <h4 className="font-bold text-2xl">Full-Stack Arhitecture</h4>
-                        <p className="text-gray-500 font-medium text-xl">Designing robust, end-to-end systems with high-performing frontend frameworks connected to secure,
-                            scalable microservices and APIs.</p>
+                    {/* Quick Stats Card */}
+                    <div className="lg:col-span-5 p-6 rounded-2xl bg-white dark:bg-slate-800/40 border border-slate-200 dark:border-slate-700/50 shadow-sm">
+                        <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-6 border-b border-slate-100 dark:border-slate-800 pb-3">
+                            At a Glance
+                        </h3>
+                        <div className="grid grid-cols-3 gap-4 text-center">
+                            {stats.map((stat, idx) => (
+                                <div key={idx} className="flex flex-col items-center">
+                                    <span className="text-2xl sm:text-3xl font-extrabold text-cyan-500">
+                                        {stat.value}
+                                    </span>
+                                    <span className="text-xs text-slate-500 dark:text-slate-400 font-medium mt-1">
+                                        {stat.label}
+                                    </span>
+                                </div>
+                            ))}
+                        </div>
                     </div>
-                    <div className="flex bg-white flex-col gap-4 p-8 rounded-2xl dark:bg-darkcard 
-                    border border-slate-200 :border-slate-800 shadow-sm glow-card transition-all">
-                        <span className="w-12 h-12 rounded-xl bg-cyan-50 dark:bg-cyan-900/30 text-cyan-600 
-                        :text-cyan-400 
-                        flex items-center justify-center">ic</span>
-
-                        <h4 className="font-bold text-2xl">Full-Stack Arhitecture</h4>
-                        <p className="text-gray-500 font-medium text-xl">Designing robust, end-to-end systems with high-performing frontend frameworks connected to secure,
-                            scalable microservices and APIs.</p>
-                    </div>
-                  
                 </div>
+
+                {/* Core Principles Grid */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    {highlights.map((item, idx) => (
+                        <div
+                            key={idx}
+                            className="p-5 rounded-xl bg-white dark:bg-slate-800/30 border border-slate-200 dark:border-slate-800/80 hover:border-cyan-500/40 transition-colors"
+                        >
+                            <div className="p-2 rounded-lg bg-cyan-500/10 w-fit mb-4">
+                                {item.icon}
+                            </div>
+                            <h4 className="font-bold text-slate-900 dark:text-white text-base mb-1">
+                                {item.title}
+                            </h4>
+                            <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+                                {item.description}
+                            </p>
+                        </div>
+                    ))}
+                </div>
+
             </div>
-            {/* <h1 className={styles.title}>ABOUT</h1>
-            <div className={styles.content}>
-                <img src={aboutImage()} alt="" className={styles.aboutImg} />
-                <ul className={styles.aboutItems}>
-                    <li className={styles.aboutItem}>
-                        <img src={dev()} alt="" />
-                        <div className={styles.aboutItemText}>
-                            <h3 className={styles.devTitle}>
-                                Front-end developer
-                            </h3>
-                            <p className={styles.description}>
-                                I build stunning and highly responsive websites.
-                            </p>
-                        </div>
-                    </li>
-                    <li className={styles.aboutItem}>
-                        <div className={styles.aboutItemText}>
-                            <h3 className={styles.evTitle}>
-                                Back-end developer
-                            </h3>
-                            <p className={styles.description}>
-                                I create modern backend systems and APIs that are super reliable
-                            </p>
-                        </div>
-                        <img src={dev()} alt="" />
-                    </li>
-                </ul>
-            </div> */}
-
         </section>
     )
 }
