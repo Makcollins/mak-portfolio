@@ -43,51 +43,6 @@ const Skills = () => {
                             )
                         })
                     }
-
-                    {/* <div className="p-2 flex gap-2 border rounded-xl bg-white border-gray-300">
-                    <span>@</span>
-                    <p>React.js</p>
-                </div>
-                <div className="p-2 flex gap-2 border rounded-xl bg-white border-gray-300">
-                    <span>@</span>
-                    <p>React.js</p>
-                </div>
-                <div className="p-2 flex gap-2 border rounded-xl bg-white border-gray-300">
-                    <span>@</span>
-                    <p>React.js</p>
-                </div>
-                <div className="p-2 flex gap-2 border rounded-xl bg-white border-gray-300">
-                    <span>@</span>
-                    <p>React.js</p>
-                </div>
-                <div className="p-2 flex gap-2 border rounded-xl bg-white border-gray-300">
-                    <span>@</span>
-                    <p>React.js</p>
-                </div>
-                <div className="p-2 flex gap-2 border rounded-xl bg-white border-gray-300">
-                    <span>@</span>
-                    <p>React.js</p>
-                </div>
-                <div className="p-2 flex gap-2 border rounded-xl bg-white border-gray-300">
-                    <span>@</span>
-                    <p>React.js</p>
-                </div>
-                <div className="p-2 flex gap-2 border rounded-xl bg-white border-gray-300">
-                    <span>@</span>
-                    <p>React.js</p>
-                </div>
-                <div className="p-2 flex gap-2 border rounded-xl bg-white border-gray-300">
-                    <span>@</span>
-                    <p>React.js</p>
-                </div>
-                <div className="p-2 flex gap-2 border rounded-xl bg-white border-gray-300">
-                    <span>@</span>
-                    <p>React.js</p>
-                </div>
-                <div className="p-2 flex gap-2 border rounded-xl bg-white border-gray-300">
-                    <span>@</span>
-                    <p>React.js</p>
-                </div> */}
                 </div>
             </div>
         </section>

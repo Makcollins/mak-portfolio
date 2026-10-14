@@ -1,6 +1,6 @@
 [
   {
-    "title": "Taraji Learning Hub Website",
+    "title": "Taraji Learning Hub",
     "imageSrc": "taraji_hero",
     "description": "A high-performance web platform for a community-based non-profit organization focused on mental health support and advocacy. The application features a semantic, keyboard-navigable structure to achieve a perfect 100/100 accessibility rating.",
     "skills": ["React", "Typescript", "Tailwind Css"],
@@ -8,7 +8,7 @@
     "source": "#"
   },
   {
-    "title": "Tic tac to game",
+    "title": "Interactive Tic-Tac-Toe Game",
     "imageSrc": "tic_tac_toe",
     "description": "A responsive, fully interactive strategy game deployed on Render to master rigorous component architecture and application state. The project implements structured type interfaces to guarantee bulletproof data validation across runtime states",
     "skills": ["REACT","CSS","Typescript"],
@@ -16,7 +16,7 @@
     "source": "#"
   },
   {
-    "title": "Video streaming Site",
+    "title": "Disney+ Clone Frontend Dashboard",
     "imageSrc": "disney_clone_hero",
     "description": "Engineered a responsive, media-centric user interface clone of Disney+ deployed on Netlify. Built strictly with Vanilla HTML5, Native CSS3, and JavaScript, the project bypasses frameworks to demonstrate deep mastery of core web standards.",
     "skills": ["HTML","CSS","JavaScript"],

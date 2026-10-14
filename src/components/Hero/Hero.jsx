@@ -24,7 +24,7 @@ const Hero = () => {
             </p>
             <div className="flex gap-2">
               <button className="border border-gray-400 rounded-sm py-1 px-2"><a href="#projects">View my work</a></button>
-              <button className="border border-gray-400 rounded-sm py-1 px-2"><a href="https://github.com/Makcollins/">Git hub</a></button>
+              <button className="border border-gray-400 rounded-sm py-1 px-2"><a href="https://github.com/devcollinsmakui">Github</a></button>
 
             </div>
           </div>
