@@ -18,10 +18,10 @@ const ProjectCard = ({ project: { imageSrc, title, description, skills, demo, so
 
     return (
         <div className="flex flex-col justify-between p-6 rounded-2xl bg-white dark:bg-slate-800/40 border border-slate-200 dark:border-slate-700/50 hover:border-cyan-500/50 transition-all group">
-            <a href={demo} className="h-40 mb-4 w-full">
+            <a href={demo} className="mb-4 w-full">
                 <AdvancedImage cldImg={snap}
                     alt={`${title} image`}
-                    className=" object-cover" />
+                    className="h-40 object-cover" />
 
             </a>
             <div className="">
