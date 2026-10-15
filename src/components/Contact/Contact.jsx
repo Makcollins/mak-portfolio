@@ -54,7 +54,7 @@ const Contact = () => {
                     </form>
                 )}
                 <div className="mt-20 flex items-center justify-center gap-6 text-2xl text-slate-600 dark:text-slate-400 ">
-                    <a href="https://www.linkedin.com/in/collins-makui/" className=""><FaLinkedin /></a>
+                    <a href="https://www.linkedin.com/in/collinsmakui" className=""><FaLinkedin /></a>
                     <a href="https://github.com/devcollinsmakui" className=""><FaGithub /></a>
                     <a href="https://github.com/Makcollins" className=""><FaGithubAlt /></a>
                 </div>
