@@ -9,7 +9,7 @@
   },
   {
     "title": "Interactive Tic-Tac-Toe Game",
-    "imageSrc": "tic_tac_toe",
+    "imageSrc": "tic_tac_toe_2",
     "description": "A responsive, fully interactive strategy game deployed on Render to master rigorous component architecture and application state. The project implements structured type interfaces to guarantee bulletproof data validation across runtime states",
     "skills": ["REACT","CSS","Typescript"],
     "demo": "https://maktictactoegame.onrender.com/",
