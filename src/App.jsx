@@ -7,6 +7,7 @@ import Navbar from './components/Navbar/Navbar';
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import { FloatingWhatsApp } from 'react-floating-whatsapp';
+import { aboutImage } from "./utils";
 
 function App() {
 
@@ -46,10 +47,11 @@ function App() {
       <FloatingWhatsApp 
         phoneNumber="254745083702" 
         accountName="Collins Makui" 
+        darkMode={darkMode}
         allowClickAway={true}      
         notification={true}        
         statusMessage="🚀 Engineering mode: Active" 
-        avatar="assets/about/aboutImage.png"
+        avatar={aboutImage()}
         chatMessage="Hello! Looking to engineer a high-performing app, website, or custom software? Tell me about your project, and let’s make it happen!" // Optional welcome message
       />
     </div>

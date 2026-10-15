@@ -3,7 +3,7 @@ import skills from "../../data/skills.json";
 
 const Skills = () => {
     const [filter, setFilter] = useState('All');
-    const categories = ['All', 'Frontend', 'Backend', 'DevOps'];
+    const categories = ['All', 'Frontend', 'Backend'];
 
     const filteredSkills = filter === 'All'
         ? skills
@@ -33,7 +33,7 @@ const Skills = () => {
                 </div>
                 <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 my-10">
                     {
-                        skills.map((skill, id) => {
+                        filteredSkills.map((skill, id) => {
                             return (
                                 <div key={id}
                                     className="p-4 rounded-xl bg-white dark:bg-slate-800/40 border border-slate-200 dark:border-slate-700/50 flex items-center gap-2">

@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="">
       <div className="max-w-7xl py-10 mx-auto px-4 sm:px-6 lg:px-10">
-        <div className="flex flex-col gap-6 md:flex-row justify-center md:justify-between">
+        <div className="flex flex-col gap-6 md:flex-row md:items-center justify-center md:justify-between">
           <div className="flex flex-col gap-4">
             <div>
               <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-50 dark:bg-cyan-900/30 border border-cyan-200 dark:border-cyan-800/50 text-cyan-700 dark:text-cyan-300 text-xs font-semibold uppercase tracking-wider mb-6">
@@ -28,7 +28,7 @@ const Hero = () => {
 
             </div>
           </div>
-          <img src={heroImage()} alt="My Image" className={`md:w-[35%] ${styles.heroImg}`} />
+          <img src={heroImage()} alt="My Image" className={`w-1/2 mx-auto md:w-[35%] ${styles.heroImg}`} />
         </div>
       </div>
     </section>
