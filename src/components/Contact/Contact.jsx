@@ -6,12 +6,13 @@ import emailjs from '@emailjs/browser'
 const Contact = () => {
     const [submitted, setSubmitted] = useState(false);
     const form = useRef()
+    const env = import.meta.env
 
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_6un33q1', 'template_rxzqz84',
-            form.current, { publicKey: 'qUJ5q4jo7gW60rsJa' }
+        emailjs.sendForm(env.VITE_EMAILJS_SERVICE_ID, env.VITE_EMAILJS_TEMPLATE_ID,
+            form.current, { publicKey: env.VITE_EMAILJS_PUBLIC_KEY }
         )
             .then(() => {
                 setSubmitted(true);
