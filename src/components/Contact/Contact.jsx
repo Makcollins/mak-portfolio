@@ -35,13 +35,6 @@ const Contact = () => {
                     </div>
                 ) : (
                     <form ref={form} onSubmit={handleSubmit} className="space-y-4 text-left">
-                        <input
-                                type="text"
-                                name="title"
-                                required
-                                placeholder="Subject"
-                                className="w-full px-4 py-3 rounded-lg bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/60 text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-cyan-500"
-                            />
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <input
                                 type="text"
@@ -58,6 +51,13 @@ const Contact = () => {
                                 className="w-full px-4 py-3 rounded-lg bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/60 text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-cyan-500"
                             />
                         </div>
+                        <input
+                                type="text"
+                                name="title"
+                                required
+                                placeholder="Subject"
+                                className="w-full px-4 py-3 rounded-lg bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/60 text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-cyan-500"
+                            />
                         <textarea
                             name="message"
                             required
