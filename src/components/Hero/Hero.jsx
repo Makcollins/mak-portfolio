@@ -1,8 +1,16 @@
 import React from 'react';
 import { getImageUrl, hand, heroImage } from '../../utils';
 import styles from './Hero.module.css';
+import { Cloudinary } from '@cloudinary/url-gen/index';
+import { AdvancedImage } from '@cloudinary/react';
 
 const Hero = () => {
+  const cld = new Cloudinary({
+        cloud: {
+            cloudName: 'xnlxwmb1'
+        }
+    });
+    const snap = cld.image('heroImage');
   return (
     <section className="">
       <div className="max-w-7xl py-10 mx-auto px-4 sm:px-6 lg:px-10">
@@ -10,7 +18,7 @@ const Hero = () => {
           <div className="flex flex-col gap-4">
             <div>
               <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-50 dark:bg-cyan-900/30 border border-cyan-200 dark:border-cyan-800/50 text-cyan-700 dark:text-cyan-300 text-xs font-semibold uppercase tracking-wider mb-6">
-                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                <span class="w-2 h-2 rounded-full bg-cyan-500 dark:bg-cyan-300 animate-pulse"></span>
                 Available for software engineering roles
               </div>
             </div>
@@ -28,7 +36,10 @@ const Hero = () => {
 
             </div>
           </div>
-          <img src={heroImage()} alt="My Image" className={`w-1/2 mx-auto md:w-[35%] ${styles.heroImg}`} />
+          <AdvancedImage cldImg={snap}
+                    alt={`My image`}
+                    className={`w-1/2 mx-auto md:w-[35%]`} />
+          {/* <img src={heroImage()} alt="My Image" className={`w-1/2 mx-auto md:w-[35%] ${styles.heroImg}`} /> */}
         </div>
       </div>
     </section>

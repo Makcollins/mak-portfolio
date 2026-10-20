@@ -52,7 +52,7 @@ function App() {
         notification={true}        
         statusMessage="🚀 Engineering mode: Active" 
         avatar={aboutImage()}
-        chatMessage="Hello! Looking to engineer a high-performing app, website, or custom software? Tell me about your project, and let’s make it happen!" // Optional welcome message
+        chatMessage="Hello! Tell me about your project, and let’s make it happen!" // Optional welcome message
       />
     </div>
   )
