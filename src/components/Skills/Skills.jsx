@@ -17,28 +17,24 @@ const Skills = () => {
             title: "C# / .NET",
             category: "Backend",
             level: "Advanced",
-            imageSrc: "https://i.ibb.co/V0M7b4g3/Csharp-Logo.png"
         },
         {
-            icon: <SiTypescript className="w-5 h-5 text-yellow-500" />,
+            icon: <SiTypescript className="w-5 h-5 text-cyan-500" />,
             title: "TypeScript",
             category: "Frontend",
             level: "Intermediate",
-            imageSrc: "https://i.ibb.co/5WdHGzpy/ts-logo-round-512.png"
         },
         {
             icon: <IoLogoJavascript className="w-5 h-5 text-cyan-500" />,
             title: "JavaScript",
             category: "Frontend",
             level: "Intermediate",
-            imageSrc: "https://i.ibb.co/b5rWpv91/js-5968509.png"
         },
         {
             icon: <SiAngular className="w-5 h-5 text-rose-700" />,
             title: "Angular",
             category: "Frontend",
             level: "Intermediate",
-            imageSrc: "https://i.ibb.co/Fqw6RqGF/angular-gradient.png"
         },
 
         {
@@ -46,56 +42,48 @@ const Skills = () => {
             title: "React",
             category: "Frontend",
             level: "Intermediate",
-            imageSrc: "https://i.ibb.co/8j6y6Zk/react.png"
         },
         {
             icon: <FaNodeJs className="w-5 h-5 text-cyan-500" />,
             title: "Node.js",
             category: "Backend",
             level: "Intermediate",
-            imageSrc: "https://i.ibb.co/TW8R8zr/node.png"
         },
         {
-            icon: <BiLogoPostgresql className="w-5 h-5 text-cyan-500" />,
+            icon: <BiLogoPostgresql className="w-6 h-6 text-cyan-500" />,
             title: "PostgreSQL",
             category: "Backend",
             level: "Intermediate",
-            imageSrc: "https://i.ibb.co/5tp74W5/Logo-Postgre-SQL.png"
         },
         {
-            icon: <SiMysql className="w-5 h-5 text-cyan-500" />,
+            icon: <SiMysql className="w-6 h-6 text-cyan-500" />,
             title: "MySQL",
             category: "Backend",
             level: "Intermediate",
-            imageSrc: "https://i.ibb.co/CpZkXKpr/logo-mysql-170x115.png"
         },
         {
             icon: <SiMongodb className="w-5 h-5 text-green-500" />,
             title: "MongoDB",
             category: "Backend",
             level: "Intermediate",
-            imageSrc: "https://i.ibb.co/7RRQZWt/mongodb.png"
         },
         {
             icon: <FaHtml5 className="w-5 h-5 text-cyan-500" />,
             title: "HTML",
             category: "Frontend",
-            level: "Intermediate",
-            imageSrc: "https://i.ibb.co/L1DDf5T/html.png"
+            level: "Intermediate"
         },
         {
             icon: <SiTailwindcss className="w-5 h-5 text-cyan-500" />,
             title: "Tailwind CSS",
             category: "Frontend",
             level: "Intermediate",
-            imageSrc: "https://i.ibb.co/5TRBStL/css.png"
         },
         {
             icon: <FaWordpress className="w-5 h-5 text-cyan-500" />,
             title: "WordPress",
             category: "Frontend",
             level: "Intermediate",
-            imageSrc: "https://i.ibb.co/B5thfyqx/wordpress-2190440.png"
         }
     ]
 

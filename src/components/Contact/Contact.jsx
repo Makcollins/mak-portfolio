@@ -1,14 +1,25 @@
-import React, { useState } from 'react';
-import { FaGithub, FaLinkedin,FaRegCopyright,FaGithubAlt  } from 'react-icons/fa';
+import React, { useRef, useState } from 'react';
+import { FaGithub, FaLinkedin, FaRegCopyright, FaGithubAlt } from 'react-icons/fa';
 import { CheckCircle2, Send } from 'lucide-react';
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
     const [submitted, setSubmitted] = useState(false);
+    const form = useRef()
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        setSubmitted(true);
-        setTimeout(() => setSubmitted(false), 5000);
+
+        emailjs.sendForm('service_6un33q1', 'template_rxzqz84',
+            form.current, { publicKey: 'qUJ5q4jo7gW60rsJa' }
+        )
+            .then(() => {
+                setSubmitted(true);
+            }),
+            (error) => {
+                setSubmitted(false);
+                console.log(error);
+            }
     };
     return (
         <section id="contact" className="py-20 border-t border-slate-200 dark:border-slate-800/60">
@@ -23,22 +34,32 @@ const Contact = () => {
                         <CheckCircle2 className="w-5 h-5" /> Message sent successfully! I'll respond shortly.
                     </div>
                 ) : (
-                    <form onSubmit={handleSubmit} className="space-y-4 text-left">
+                    <form ref={form} onSubmit={handleSubmit} className="space-y-4 text-left">
+                        <input
+                                type="text"
+                                name="title"
+                                required
+                                placeholder="Subject"
+                                className="w-full px-4 py-3 rounded-lg bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/60 text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-cyan-500"
+                            />
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <input
                                 type="text"
+                                name="name"
                                 required
                                 placeholder="Your Name"
                                 className="w-full px-4 py-3 rounded-lg bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/60 text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-cyan-500"
                             />
                             <input
                                 type="email"
+                                name="email"
                                 required
                                 placeholder="Your Email"
                                 className="w-full px-4 py-3 rounded-lg bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/60 text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-cyan-500"
                             />
                         </div>
                         <textarea
+                            name="message"
                             required
                             rows={4}
                             placeholder="Your Message"
